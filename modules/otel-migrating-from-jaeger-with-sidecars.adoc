@@ -6,12 +6,12 @@
 [id="migrating-to-otel-from-jaeger-with-sidecars_{context}"]
 = Migrating with sidecars
 
-The {OTELShortName} Operator supports sidecar injection into deployment workloads, so you can migrate from a {JaegerShortName} sidecar to a {OTELShortName} sidecar.
+The {OTelOperator} supports sidecar injection into deployment workloads, so you can migrate from a {JaegerShortName} sidecar to a {otel} sidecar.
 
 .Prerequisites
 
 * The {JaegerName} is used on the cluster.
-* The {OTELName} is installed.
+* The {otel} is installed.
 
 .Procedure
 

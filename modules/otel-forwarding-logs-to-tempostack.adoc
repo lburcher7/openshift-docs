@@ -10,7 +10,7 @@ You can deploy the OpenTelemetry Collector to forward logs to a `LokiStack` inst
 
 .Prerequisites
 
-* The {OTELOperator} is installed.
+* The {OTelOperator} is installed.
 * The {loki-op} is installed.
 * A supported `LokiStack` instance is deployed on the cluster. For more information about the supported `LokiStack` configuration, see _Logging_.
 

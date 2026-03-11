@@ -35,7 +35,7 @@ The Prometheus Exporter exports metrics in the Prometheus or OpenMetrics formats
           exporters: [prometheus]
 # ...
 ----
-<1> The network endpoint where the metrics are exposed. The {OTELOperator} automatically exposes the port specified in the `endpoint` field to the `<instance_name>-collector` service.
+<1> The network endpoint where the metrics are exposed. The {OTelOperator} automatically exposes the port specified in the `endpoint` field to the `<instance_name>-collector` service.
 <2> The server-side TLS configuration. Defines paths to TLS certificates.
 <3> If set, exports metrics under the provided value.
 <4> Key-value pair labels that are applied for every exported metric.

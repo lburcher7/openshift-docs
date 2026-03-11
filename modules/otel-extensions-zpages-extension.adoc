@@ -41,7 +41,7 @@ include::snippets/technology-preview.adoc[]
 
 [IMPORTANT]
 ====
-Accessing the HTTP endpoint requires port-forwarding because the {OTELOperator} does not expose this route.
+Accessing the HTTP endpoint requires port-forwarding because the {OTelOperator} does not expose this route.
 
 You can enable port-forwarding by running the following `oc` command:
 

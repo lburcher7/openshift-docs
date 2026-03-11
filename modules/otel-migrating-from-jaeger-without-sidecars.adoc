@@ -6,12 +6,12 @@
 [id="migrating-to-otel-from-jaeger-without-sidecars_{context}"]
 = Migrating without sidecars
 
-You can migrate from the {JaegerShortName} to the {OTELShortName} without sidecar deployment.
+You can migrate from the {JaegerShortName} to the {otel} without sidecar deployment.
 
 .Prerequisites
 
 * The {JaegerName} is used on the cluster.
-* The {OTELName} is installed.
+* The {otel} is installed.
 
 .Procedure
 

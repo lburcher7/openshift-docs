@@ -10,7 +10,7 @@ To configure forwarding traces to a TempoStack instance, you can deploy and conf
 
 .Prerequisites
 
-* The {OTELOperator} is installed.
+* The {OTelOperator} is installed.
 * The {TempoOperator} is installed.
 * A TempoStack instance is deployed on the cluster.
 

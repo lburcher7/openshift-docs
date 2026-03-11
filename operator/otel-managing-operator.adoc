@@ -7,7 +7,7 @@ include::_attributes/common-attributes.adoc[]
 toc::[]
 
 [role="_abstract"]
-The {OTELOperator} uses the Operator Lifecycle Manager (OLM).
+The {OTelOperator} uses the Operator Lifecycle Manager (OLM).
 
 include::modules/otel-version-upgrades.adoc[leveloffset=+1]
 

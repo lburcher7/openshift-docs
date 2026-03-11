@@ -40,7 +40,7 @@ $ oc get deployments -n <project_of_opentelemetry_instance>
 $ oc delete opentelemetrycollectors <opentelemetry_instance_name> -n <project_of_opentelemetry_instance>
 ----
 
-. Optional: Remove the {OTELOperator}.
+. Optional: Remove the {OTelOperator}.
 
 .Verification
 

@@ -12,7 +12,7 @@ The following list shows some of these metrics:
 	* Dropped spans, logs, or metrics
 	* Exporter and receiver statistics
 
-The {OTELOperator} automatically creates a service named `<instance_name>-collector-monitoring` that exposes the Collector's internal metrics. This service listens on port `8888` by default.
+The {OTelOperator} automatically creates a service named `<instance_name>-collector-monitoring` that exposes the Collector's internal metrics. This service listens on port `8888` by default.
 
 You can use these metrics for monitoring the Collector's performance, resource consumption, and other internal behaviors. You can also use a Prometheus instance or another monitoring tool to scrape these metrics from the mentioned `<instance_name>-collector-monitoring` service.
 

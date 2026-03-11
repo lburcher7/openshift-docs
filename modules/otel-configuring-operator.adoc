@@ -7,7 +7,7 @@
 = Configuring the Operator
 
 [role="_abstract"]
-You can make several configuration choices for the {OTELOperator} by editing the `Subscription` object.
+You can make several configuration choices for the {OTelOperator} by editing the `Subscription` object.
 
 .Prerequisites
 
@@ -29,7 +29,7 @@ $ oc edit subscription opentelemetry-operator -n openshift-opentelemetry-operato
 
 . In the web console, navigate to *Operators* -> *Installed Operators*.
 
-. Select *{OTELName}* and then select the *Subscription* tab.
+. Select *{otel}* and then select the *Subscription* tab.
 
 . From the *Actions* menu, select *Edit Subscription*.
 

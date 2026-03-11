@@ -6,11 +6,11 @@ include::_attributes/common-attributes.adoc[]
 
 toc::[]
 
-The steps for removing the {OTELShortName} from an {ocp-product-title} cluster are as follows:
+The steps for removing the {otel} from an {ocp-product-title} cluster are as follows:
 
-. Shut down all {OTELShortName} pods.
+. Shut down all the {otel} pods.
 . Remove any OpenTelemetryCollector instances.
-. Remove the {OTELOperator}.
+. Remove the {OTelOperator}.
 
 include::modules/otel-remove-web-console.adoc[leveloffset=+1]
 

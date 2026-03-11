@@ -6,9 +6,9 @@ include::_attributes/common-attributes.adoc[]
 
 toc::[]
 
-Installing the {OTELShortName} involves the following steps:
+Installing the {otel} involves the following steps:
 
-. Installing the {OTELOperator}.
+. Installing the {OTelOperator}.
 . Creating a namespace for an OpenTelemetry Collector instance.
 . Creating an `OpenTelemetryCollector` custom resource to deploy the OpenTelemetry Collector instance.
 

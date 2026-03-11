@@ -11,7 +11,7 @@ If you need the Collector to receive telemetry from multiple remote clusters, cr
 
 .Prerequisites
 
-* The {OTELOperator} is installed.
+* The {OTelOperator} is installed.
 * The {TempoOperator} is installed.
 * A TempoStack instance is deployed on the cluster.
 * The following mounted certificates: Issuer, self-signed certificate, CA issuer, client and server certificates. To create any of these certificates, see step 1.

@@ -4,9 +4,9 @@
 
 :_mod-docs-content-type: PROCEDURE
 [id="installing-otel-by-using-the-cli_{context}"]
-= Installing the {OTELShortName} by using the CLI
+= Installing the {otel} by using the CLI
 
-You can install the {OTELShortName} from the command line.
+You can install the {otel} from the command line.
 
 .Prerequisites
 
@@ -26,9 +26,9 @@ $ oc login --username=<your_username>
 
 .Procedure
 
-. Install the {OTELOperator}:
+. Install the {OTelOperator}:
 
-.. Create a project for the {OTELOperator} by running the following command:
+.. Create a project for the {OTelOperator} by running the following command:
 +
 [source,terminal]
 ----

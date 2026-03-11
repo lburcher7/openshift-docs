@@ -43,7 +43,7 @@ $ oc get events -n <workload_project> # <1>
 +
 [NOTE]
 ====
-When the pod starts, the {OTELOperator} checks the `Instrumentation` CR for annotations containing instructions for injecting auto-instrumentation. Generally, the Operator then adds an init-container to the application’s pod that injects the auto-instrumentation and environment variables into the application's container. If the `Instrumentation` CR is not available to the Operator when the application is deployed, the Operator is unable to inject the auto-instrumentation.
+When the pod starts, the {OTelOperator} checks the `Instrumentation` CR for annotations containing instructions for injecting auto-instrumentation. Generally, the Operator then adds an init-container to the application’s pod that injects the auto-instrumentation and environment variables into the application's container. If the `Instrumentation` CR is not available to the Operator when the application is deployed, the Operator is unable to inject the auto-instrumentation.
 ====
 +
 Fixing the order of deployment requires the following steps:

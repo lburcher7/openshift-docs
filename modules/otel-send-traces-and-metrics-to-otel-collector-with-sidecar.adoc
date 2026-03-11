@@ -8,7 +8,7 @@
 
 You can set up sending telemetry data to an OpenTelemetry Collector instance with sidecar injection.
 
-The {OTELOperator} allows sidecar injection into deployment workloads and automatic configuration of your instrumentation to send telemetry data to the OpenTelemetry Collector.
+The {OTelOperator} allows sidecar injection into deployment workloads and automatic configuration of your instrumentation to send telemetry data to the OpenTelemetry Collector.
 
 .Prerequisites
 

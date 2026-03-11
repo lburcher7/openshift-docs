@@ -6,7 +6,7 @@
 [id="otel-forwarding-data-to-third-party-systems_{context}"]
 = Forwarding telemetry data to third-party systems
 
-The OpenTelemetry Collector exports telemetry data by using the OTLP exporter via the OpenTelemetry Protocol (OTLP) that is implemented over the gRPC or HTTP transports. If you need to forward telemetry data to your third-party system and it does not support the OTLP or other supported protocol in the {OTELShortName}, then you can deploy an unsupported custom OpenTelemetry Collector that can receive telemetry data via the OTLP and export it to your third-party system by using a custom exporter.
+The OpenTelemetry Collector exports telemetry data by using the OTLP exporter via the OpenTelemetry Protocol (OTLP) that is implemented over the gRPC or HTTP transports. If you need to forward telemetry data to your third-party system and it does not support the OTLP or other supported protocol in the {otel}, then you can deploy an unsupported custom OpenTelemetry Collector that can receive telemetry data via the OTLP and export it to your third-party system by using a custom exporter.
 
 [WARNING]
 ====

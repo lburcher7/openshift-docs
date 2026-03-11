@@ -1,7 +1,7 @@
 :_mod-docs-content-type: ASSEMBLY
 include::_attributes/common-attributes.adoc[]
 [id="otel_rn"]
-= Release notes for the {OTELName} 3.9
+= Release notes for the {otel} 3.9
 :context: otel-rn
 
 toc::[]

@@ -37,7 +37,7 @@ spec:
         metrics:
           exporters: [prometheus]
 ----
-<1> Configures the {OTELOperator} to create the Prometheus `ServiceMonitor` CR or `PodMonitor` CR to scrape the Collector's internal metrics endpoint and the Prometheus exporter metrics endpoints.
+<1> Configures the {OTelOperator} to create the Prometheus `ServiceMonitor` CR or `PodMonitor` CR to scrape the Collector's internal metrics endpoint and the Prometheus exporter metrics endpoints.
 
 [NOTE]
 ====

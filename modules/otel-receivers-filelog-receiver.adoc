@@ -122,7 +122,7 @@ You can use this receiver to collect logs from pod filesystems in one of two way
 
 * Deploying the receiver as a DaemonSet on the host machine with appropriate permissions to access Kubernetes logs.
 
-To collect logs from application containers, you can use this receiver with sidecar injection. The {OTELOperator} allows injecting an OpenTelemetry Collector as a sidecar container into an application pod. This approach is useful when your application writes logs to files within the container filesystem. This receiver can then tail log files and apply Operators to parse the logs.
+To collect logs from application containers, you can use this receiver with sidecar injection. The {OTelOperator} allows injecting an OpenTelemetry Collector as a sidecar container into an application pod. This approach is useful when your application writes logs to files within the container filesystem. This receiver can then tail log files and apply Operators to parse the logs.
 
 To use this receiver in sidecar mode to collect logs from application containers, you must configure volume mounts in the `OpenTelemetryCollector` custom resource. Both the application container and the sidecar Collector must mount the same shared volume, such as `emptyDir`. Define the volume in the application's `Pod` specification. See the following example:
 

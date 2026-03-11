@@ -6,11 +6,11 @@
 [id="otel-instrumentation-config_{context}"]
 = OpenTelemetry instrumentation configuration options
 
-The {OTELName} injects and configures the OpenTelemetry auto-instrumentation libraries into your workloads. Currently, the {OTELName} supports injecting instrumentation libraries for Go, Java, Node.js, Python, .NET, and the Apache HTTP Server (`httpd`).
+The {otel} injects and configures the OpenTelemetry auto-instrumentation libraries into your workloads. Currently, the {otel} supports injecting instrumentation libraries for Go, Java, Node.js, Python, .NET, and the Apache HTTP Server (`httpd`).
 
 [IMPORTANT]
 ====
-The {OTELOperator} only supports the injection mechanism of the instrumentation libraries but does not support instrumentation libraries or upstream images. Customers can build their own instrumentation images or use community images.
+The {OTelOperator} only supports the injection mechanism of the instrumentation libraries but does not support instrumentation libraries or upstream images. Customers can build their own instrumentation images or use community images.
 ====
 
 [id="otel-instrumentation-options_{context}"]
@@ -144,7 +144,7 @@ Depending on the programming language, environment variables might not work for 
 [id="otel-configuration-of-opentelemetry-sdk-variables_{context}"]
 == Configuration of the OpenTelemetry SDK variables
 
-You can use the `instrumentation.opentelemetry.io/inject-sdk` annotation in the OpenTelemetry Collector custom resource to instruct the {OTELName} Operator to inject some of the following OpenTelemetry SDK environment variables, depending on the `Instrumentation` CR, into your pod:
+You can use the `instrumentation.opentelemetry.io/inject-sdk` annotation in the OpenTelemetry Collector custom resource to instruct the {OTelOperator} to inject some of the following OpenTelemetry SDK environment variables, depending on the `Instrumentation` CR, into your pod:
 
 * `OTEL_SERVICE_NAME`
 * `OTEL_TRACES_SAMPLER`
