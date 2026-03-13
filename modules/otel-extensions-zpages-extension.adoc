@@ -43,7 +43,7 @@ include::snippets/technology-preview.adoc[]
 ====
 Accessing the HTTP endpoint requires port-forwarding because the {OTelOperator} does not expose this route.
 
-You can enable port-forwarding by running the following `oc` command:
+The CLI command for enabling port-forwarding is as follows:
 
 [source,terminal]
 ----

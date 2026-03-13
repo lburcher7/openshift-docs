@@ -135,7 +135,7 @@ spec:
 
 |`OTEL_EXPORTER_OTLP_CERTIFICATE`
 |Path to the certificate file for the TLS credentials of the gRPC client.
-|`\https://localhost:4317`
+|`"/<path_to_certificates>/ca-certificates.crt"`
 
 |`OTEL_TRACES_SAMPLER`
 |Sampler to be used for traces.

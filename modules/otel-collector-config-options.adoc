@@ -131,7 +131,7 @@ spec:
   pipelines:
     metrics:
       processors:
-|You enable processors for metircs by adding them under `service.pipelines.metrics`.
+|You enable processors for metrics by adding them under `service.pipelines.metrics`.
 |
 |None
 

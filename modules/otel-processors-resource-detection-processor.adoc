@@ -7,7 +7,7 @@
 = Resource Detection Processor
 
 [role="_abstract"]
-The Resource Detection Processor identifies host resource details in alignment with OpenTelemetry's resource semantic standards. Using the detected information, this processor can add or replace the resource values in telemetry data. This processor supports traces and metrics. You can use this processor with multiple detectors such as the Docket metadata detector or the `OTEL_RESOURCE_ATTRIBUTES` environment variable detector.
+The Resource Detection Processor identifies host resource details in alignment with OpenTelemetry's resource semantic standards. Using the detected information, this processor can add or replace the resource values in telemetry data. This processor supports traces and metrics. You can use this processor with multiple detectors such as the Docker metadata detector or the `OTEL_RESOURCE_ATTRIBUTES` environment variable detector.
 
 :FeatureName: The Resource Detection Processor
 include::snippets/technology-preview.adoc[]

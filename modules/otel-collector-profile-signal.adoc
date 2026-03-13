@@ -25,12 +25,12 @@ Profiling can target an application or operating system:
 ----
 apiVersion: opentelemetry.io/v1beta1
 kind: OpenTelemetryCollector
-metadata:   
-name: otel-profiles-collector
+metadata:
+  name: otel-profiles-collector
   namespace: otel-profile
-spec:  
- args: 
-   feature-gates: service.profilesSupport # <1>
+spec:
+  args:
+    feature-gates: service.profilesSupport # <1>
   config:     
     receivers:       
       otlp: # <2>

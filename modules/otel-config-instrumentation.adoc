@@ -57,7 +57,7 @@ spec:
 <5> Go auto-instrumentation uses protocol buffers over HTTP (HTTP/proto or HTTP/protobuf) by default.
 <6> Required if endpoint is set to `:4317`.
 +
-For more information about procol buffers, see link:https://protobuf.dev/overview/[Overview] (Protocol Buffers Documentation).
+For more information about protocol buffers, see link:https://protobuf.dev/overview/[Overview] (Protocol Buffers Documentation).
 
 //[cols=",,",options="header",]
 
@@ -186,7 +186,7 @@ Although the `Instrumentation` custom resource supports setting up one or more e
 apiVersion: opentelemetry.io/v1alpha1
 kind: Instrumentation
 # ...
-spec
+spec:
 # ...
   exporter:
     endpoint: https://production-collector.observability.svc.cluster.local:4317  # <1>
@@ -205,7 +205,7 @@ spec
 apiVersion: opentelemetry.io/v1alpha1
 kind: Instrumentation
 # ...
-spec
+spec:
 # ...
   exporter:
     endpoint: https://production-collector.observability.svc.cluster.local:4317  # <1>
