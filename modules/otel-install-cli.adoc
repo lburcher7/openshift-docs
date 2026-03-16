@@ -14,14 +14,9 @@ You can install the {otel} from the command line.
 +
 [TIP]
 ====
-* Ensure that your {oc-first} version is up to date and matches your {ocp-product-title} version.
+* Your {oc-first} version must be up to date and match your {ocp-product-title} version.
 
-* Run `oc login`:
-+
-[source,terminal]
-----
-$ oc login --username=<your_username>
-----
+* You can verify your session by running `oc whoami`.
 ====
 
 .Procedure

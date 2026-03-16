@@ -17,7 +17,7 @@ You can make several configuration choices for the {OTelOperator} by editing the
 
 [TIP]
 ====
-If you are a terminal user, you can skip the web console and edit the YAML configuration for the `Subscription` object by running the following command during an active {oc-first} session:
+As an alternative to the web console, you can edit the `Subscription` object directly by using the following command:
 
 [source,terminal]
 ----
